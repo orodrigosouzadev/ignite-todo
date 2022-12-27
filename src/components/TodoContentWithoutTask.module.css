@@ -1,0 +1,21 @@
+.todoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 4rem 1.5rem;
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+}
+
+.todoContent img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.todoContent strong, span {
+  line-height: 1.4;
+}
